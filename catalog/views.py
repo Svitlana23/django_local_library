@@ -36,8 +36,7 @@ from django.views import generic
 def image(request):
     return render(
         request,
-        'catalog/image.html',
-        # locals()
+        'catalog/ind_templates.html',
 
     )
 
